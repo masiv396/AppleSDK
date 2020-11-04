@@ -4,7 +4,7 @@ struct MasivianPush {
     var text = "Hello, World!"
 }
 
-public func sentState(messageId: String,state: String, auth: String) -> String {
+public func sentState(messageId: String,state: String, auth: String){
     let json: [String: Any] = ["Id": messageId,
                                "state": state]
 
@@ -33,7 +33,5 @@ public func sentState(messageId: String,state: String, auth: String) -> String {
     }
 
     task.resume()
-    let response = task.response?.description
-    return response!
     
 }
