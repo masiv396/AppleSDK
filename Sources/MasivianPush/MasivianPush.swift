@@ -15,7 +15,7 @@ public func sentState(messageId: String,state: String, auth: String){
     var request = URLRequest(url: url)
     request.setValue(auth, forHTTPHeaderField: "Authorization")
     request.setValue("application/json", forHTTPHeaderField: "Content-Type")
-    request.setValue("Accept", forHTTPHeaderField: "Content-Type")
+    request.setValue("application/json", forHTTPHeaderField: "Accept")
     request.httpMethod = "POST"
 
     // insert json data to the request
