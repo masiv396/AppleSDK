@@ -5,7 +5,7 @@ struct MasivianPush {
 }
 
 public func sentState(messageId: String,state: String, auth: String){
-    let json: [String: Any] = ["Id": messageId,
+    let json: [String: Any] = ["id": messageId,
                                "state": state]
 
     let jsonData = try? JSONSerialization.data(withJSONObject: json)
