@@ -11,7 +11,7 @@ public func sentState(messageId: String,state: String, auth: String){
     let jsonData = try? JSONSerialization.data(withJSONObject: json)
 
     // create post request
-    let url = URL(string: "http://LB-LabsMasivianPush-Sender-59007382.us-east-1.elb.amazonaws.com/v1/notificationState/update")!
+    let url = URL(string: "http://LB-LabsMasivianPush-Sender-983241749.us-east-1.elb.amazonaws.com/v1/notificationState/update")!
     var request = URLRequest(url: url)
     request.setValue(auth, forHTTPHeaderField: "Authorization")
     request.setValue("application/json", forHTTPHeaderField: "Content-Type")
