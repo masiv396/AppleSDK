@@ -11,7 +11,7 @@ public func sentState(messageId: String,state: String, auth: String){
     let jsonData = try? JSONSerialization.data(withJSONObject: json)
 
     // create post request
-    let url = URL(string: "http://LB-LabsMasivianPush-1471141109.us-east-1.elb.amazonaws.com/v1/notificationState/update")!
+    let url = URL(string: "https://push-labs.masivapp.com/v1/notificationState/update")!
     var request = URLRequest(url: url)
     request.setValue(auth, forHTTPHeaderField: "Authorization")
     request.setValue("application/json", forHTTPHeaderField: "Content-Type")
@@ -45,7 +45,7 @@ public func sentLocation(messageId: String,country: String,countryCode: String,c
     let jsonData = try? JSONSerialization.data(withJSONObject: json)
 
     // create post request
-    let url = URL(string: "http://LB-LabsMasivianPush-1471141109.us-east-1.elb.amazonaws.com/v1/notificationState/updateLocation")!
+    let url = URL(string: "https://push-labs.masivapp.com/v1/notificationState/updateLocation")!
     var request = URLRequest(url: url)
     request.setValue(auth, forHTTPHeaderField: "Authorization")
     request.setValue("application/json", forHTTPHeaderField: "Content-Type")
