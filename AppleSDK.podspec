@@ -16,8 +16,8 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "AppleSDK"
-  spec.version      = "0.0.8"
-  spec.summary      = "change url prod"
+  spec.version      = "0.0.9"
+  spec.summary      = "test register token"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -78,7 +78,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/masiv396/AppleSDK.git", :tag => '0.0.8' }
+  spec.source       = { :git => "https://github.com/masiv396/AppleSDK.git", :tag => '0.0.9' }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
