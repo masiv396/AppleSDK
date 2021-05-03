@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "AppleSDK"
   spec.version      = "0.0.9"
-  spec.summary      = "test register token"
+  spec.summary      = "test register token and test in labs"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
