@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "AppleSDK"
-  spec.version      = "0.1.4"
+  spec.version      = "0.1.5"
   spec.summary      = "test register token and test in labs"
 
   # This description is used to generate tags and improve search results.
@@ -51,9 +51,9 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "ramiro" => "jsalas2345@hotmail.com" }
+  # spec.author             = { "ramiro" => "jsalas2345@hotmail.com" }
   # Or just: spec.author    = "masiv396"
-  # spec.authors            = { "masiv396" => "email@address.com" }
+   spec.authors            = { "masiv396" => "email@address.com" }
   # spec.social_media_url   = "https://twitter.com/masiv396"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -78,7 +78,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/masiv396/AppleSDK.git", :tag => '0.1.4' }
+  spec.source       = { :git => "https://github.com/masiv396/AppleSDK.git", :tag => '0.1.5' }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
