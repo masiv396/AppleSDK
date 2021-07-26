@@ -11,7 +11,7 @@ public func sentState(messageId: String,state: String, auth: String){
     let jsonData = try? JSONSerialization.data(withJSONObject: json)
 
     // create post request
-    sentRequest(url: "https://push-prodtemp.masivapp.com/v1/notificationState/update", auth: auth, json: jsonData)
+    sentRequest(url: "https://push.masivapp.com/v1/notificationState/update", auth: auth, json: jsonData)
 }
 
 public func sentToken(platformName: String,token: String,appId: String, auth: String){
@@ -22,7 +22,7 @@ public func sentToken(platformName: String,token: String,appId: String, auth: St
     let jsonData = try? JSONSerialization.data(withJSONObject: json)
 
     // create post request
-    sentRequest(url: "https://push-prodtemp.masivapp.com/v1/association/registerToken", auth: auth, json: jsonData)
+    sentRequest(url: "https://push.masivapp.com/v1/association/registerToken", auth: auth, json: jsonData)
 }
 
 public func sentDisableToken(token: String, auth: String){
@@ -31,7 +31,7 @@ public func sentDisableToken(token: String, auth: String){
     let jsonData = try? JSONSerialization.data(withJSONObject: json)
     
     // create post request
-    sentRequest(url: "https://push-prodtemp.masivapp.com/v1/notification/instanceRegistryCancel", auth: auth, json: jsonData)
+    sentRequest(url: "https://push.masivapp.com/v1/notification/instanceRegistryCancel", auth: auth, json: jsonData)
 }
 
 public func sentLocation(messageId: String,country: String,countryCode: String,city: String, auth: String){
@@ -43,7 +43,7 @@ public func sentLocation(messageId: String,country: String,countryCode: String,c
     let jsonData = try? JSONSerialization.data(withJSONObject: json)
 
     // create post request
-    sentRequest(url: "https://push-prodtemp.masivapp.com/v1/notificationState/updateLocation", auth: auth, json: jsonData)
+    sentRequest(url: "https://push.masivapp.com/v1/notificationState/updateLocation", auth: auth, json: jsonData)
 }
 
 public func sentRequest(url: String, auth: String, json: Data?){
