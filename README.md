@@ -1,7 +1,38 @@
-# Masivian IOS Push Notification SDK
-[![CocoaPods](https://img.shields.io/cocoapods/p/AppleSDK.svg?maxAge=3601)](https://cocoapods.org/pods/AppleSDK)
-[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/AppleSDK.svg)](https://cocoapods.org/pods/AppleSDK)
-[![code size](https://img.shields.io/github/languages/code-size/masiv396/AppleSDK.svg)](#)
-[![license](https://img.shields.io/github/license/masiv396/AppleSDK.svg)](https://github.com/masiv396/AppleSDK/blob/main/LICENSE)
+# MasivPushIosSdk
 
-Complemento que facilita la integración de su aplicación IOS nativa con Masivian Push.
+[![Version](https://img.shields.io/cocoapods/v/MasivPushIosSdk.svg?style=flat)](https://cocoapods.org/pods/MasivPushIosSdk)
+[![License](https://img.shields.io/cocoapods/l/MasivPushIosSdk.svg?style=flat)](https://cocoapods.org/pods/MasivPushIosSdk)
+[![Platform](https://img.shields.io/cocoapods/p/MasivPushIosSdk.svg?style=flat)](https://cocoapods.org/pods/MasivPushIosSdk)
+
+## Import the MasivPushIosSdk into your Xcode project
+### Option 1. CocoaPods
+MasivPushIosSdk is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'MasivPushIosSdk'
+```
+### Option 2. Carthage
+You can also use [Carthage](https://github.com/Carthage/Carthage#installing-carthage) for setting up and upgrading the MasivPushIosSdk.
+
+1. Make sure your current Xcode project is closed.
+2. Open Project Directory in Terminal. Run `echo 'github "masiv396/AppleSDK" ~> 1.0.0' >> Cartfile`
+3. Run `carthage update`
+4. A *Cartfile.resolved* file and a *Carthage* directory will appear in the same directory where your *.xcodeproj* or *.xcworkspace* is
+5. Drag the built *.xcframework* bundles from *Carthage/Build* into the "Frameworks and Libraries" section of your application’s Xcode project.
+
+## Example
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+```ruby
+pod 'MasivPushIosSdk'
+```
+
+## Author
+
+[Masivian](https://masiv.com)
+
+## License
+
+MasivPushIosSdk is available under the MIT license. See the LICENSE file for more info.

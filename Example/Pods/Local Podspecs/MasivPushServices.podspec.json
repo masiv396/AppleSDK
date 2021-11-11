@@ -1,0 +1,33 @@
+{
+  "name": "MasivPushIosSdk",
+  "version": "0.1.0",
+  "summary": "A short description of MasivPushIosSdk",
+  "swift_versions": "4.0",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://masivPublicSdks@dev.azure.com/masivPublicSdks/MasivPushSdks/_git/MasivPushIosSdk",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "David Andres Vargas Leon": "david.vargas@masiv.com"
+  },
+  "source": {
+    "git": "https://masivPublicSdks@dev.azure.com/masivPublicSdks/MasivPushSdks/_git/MasivPushIosSdk",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "MasivPushIosSdk/Classes/**/*",
+  "static_framework": true,
+  "dependencies": {
+    "FirebaseMessaging": [
+
+    ],
+    "FirebaseAnalytics": [
+
+    ]
+  },
+  "swift_version": "4.0"
+}
