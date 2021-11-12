@@ -23,7 +23,7 @@ You can also use [Carthage](https://github.com/Carthage/Carthage#installing-cart
 5. Drag the built *.xcframework* bundles from *Carthage/Build* into the "Frameworks and Libraries" section of your application’s Xcode project.
 
 ## Installation
-See [MasivPushIosSdk](https://masiv.com) Setup Guide for documentation.
+See [MasivPushIosSdk](https://dev.azure.com/masivPublicSdks/MasivPushSdks/_wiki/wikis/MasivPushSdks.wiki/7/Documentaci%C3%B3n-Librer%C3%ADa-SDK-iOS) Setup Guide for documentation.
 
 ## Author
 
