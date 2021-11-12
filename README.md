@@ -18,7 +18,7 @@ You can also use [Carthage](https://github.com/Carthage/Carthage#installing-cart
 
 1. Make sure your current Xcode project is closed.
 2. Open Project Directory in Terminal. Run `echo 'github "masiv396/AppleSDK" ~> 1.0.0' >> Cartfile`
-3. Run `carthage update`
+3. Run `carthage update --use-xcframeworks`
 4. A *Cartfile.resolved* file and a *Carthage* directory will appear in the same directory where your *.xcodeproj* or *.xcworkspace* is
 5. Drag the built *.xcframework* bundles from *Carthage/Build* into the "Frameworks and Libraries" section of your application’s Xcode project.
 
