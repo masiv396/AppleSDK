@@ -1,0 +1,16 @@
+/Users/masiv/Documents/masiv396/MasivPushIosSdk/MasivPushIosSdk/MasivPushIosSdk/Business/Services/LocationService.swift
+/Users/masiv/Documents/masiv396/MasivPushIosSdk/MasivPushIosSdk/MasivPushIosSdk/Business/Services/CellphoneService.swift
+/Users/masiv/Documents/masiv396/MasivPushIosSdk/MasivPushIosSdk/MasivPushIosSdk/Infrastructure/Clients/HttpClient.swift
+/Users/masiv/Documents/masiv396/MasivPushIosSdk/MasivPushIosSdk/MasivPushIosSdk/Domain/Enums/MasivEventType.swift
+/Users/masiv/Documents/masiv396/MasivPushIosSdk/MasivPushIosSdk/MasivPushIosSdk/Infrastructure/Clients/CellphoneClient.swift
+/Users/masiv/Documents/masiv396/MasivPushIosSdk/MasivPushIosSdk/MasivPushIosSdk/Domain/MasivNotification.swift
+/Users/masiv/Documents/masiv396/MasivPushIosSdk/MasivPushIosSdk/MasivPushIosSdk/Business/Services/MasivPushServices.swift
+/Users/masiv/Documents/masiv396/MasivPushIosSdk/MasivPushIosSdk/MasivPushIosSdk/Domain/MasivCellphone.swift
+/Users/masiv/Documents/masiv396/MasivPushIosSdk/MasivPushIosSdk/MasivPushIosSdk/Infrastructure/Clients/EventClient.swift
+/Users/masiv/Documents/masiv396/MasivPushIosSdk/MasivPushIosSdk/MasivPushIosSdk/Domain/Enums/MasivPlatform.swift
+/Users/masiv/Documents/masiv396/MasivPushIosSdk/MasivPushIosSdk/MasivPushIosSdk/Domain/MasivEvent.swift
+/Users/masiv/Documents/masiv396/MasivPushIosSdk/MasivPushIosSdk/MasivPushIosSdk/Business/Services/TokenService.swift
+/Users/masiv/Documents/masiv396/MasivPushIosSdk/MasivPushIosSdk/MasivPushIosSdk/Business/Services/NotificationService.swift
+/Users/masiv/Documents/masiv396/MasivPushIosSdk/MasivPushIosSdk/MasivPushIosSdk/Domain/MasivToken.swift
+/Users/masiv/Documents/masiv396/MasivPushIosSdk/MasivPushIosSdk/MasivPushIosSdk/Business/Services/EventService.swift
+/Users/masiv/Documents/masiv396/MasivPushIosSdk/MasivPushIosSdk/MasivPushIosSdk/Infrastructure/Clients/TokenClient.swift

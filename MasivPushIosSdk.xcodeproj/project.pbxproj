@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11CFFB4B273DD0F500E56F05 /* MasivPushIosSdk.docc in Sources */ = {isa = PBXBuildFile; fileRef = 11CFFB4A273DD0F500E56F05 /* MasivPushIosSdk.docc */; };
+		11CFFB51273DD0F500E56F05 /* MasivPushIosSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11CFFB46273DD0F500E56F05 /* MasivPushIosSdk.framework */; };
+		11CFFB56273DD0F500E56F05 /* MasivPushIosSdkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CFFB55273DD0F500E56F05 /* MasivPushIosSdkTests.swift */; };
+		11CFFB57273DD0F500E56F05 /* MasivPushIosSdk.h in Headers */ = {isa = PBXBuildFile; fileRef = 11CFFB49273DD0F500E56F05 /* MasivPushIosSdk.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11CFFB75273DD65300E56F05 /* MasivPlatform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CFFB74273DD65300E56F05 /* MasivPlatform.swift */; };
+		11CFFB77273DD66B00E56F05 /* MasivEventType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CFFB76273DD66B00E56F05 /* MasivEventType.swift */; };
+		11CFFB79273DD69000E56F05 /* MasivCellphone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CFFB78273DD69000E56F05 /* MasivCellphone.swift */; };
+		11CFFB7B273DD6A100E56F05 /* MasivEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CFFB7A273DD6A100E56F05 /* MasivEvent.swift */; };
+		11CFFB7D273DD6B700E56F05 /* MasivNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CFFB7C273DD6B700E56F05 /* MasivNotification.swift */; };
+		11CFFB7F273DD6DE00E56F05 /* MasivToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CFFB7E273DD6DE00E56F05 /* MasivToken.swift */; };
+		11CFFB81273DD74700E56F05 /* CellphoneClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CFFB80273DD74700E56F05 /* CellphoneClient.swift */; };
+		11CFFB83273DD75700E56F05 /* EventClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CFFB82273DD75700E56F05 /* EventClient.swift */; };
+		11CFFB85273DD76700E56F05 /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CFFB84273DD76700E56F05 /* HttpClient.swift */; };
+		11CFFB87273DD77700E56F05 /* TokenClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CFFB86273DD77700E56F05 /* TokenClient.swift */; };
+		11CFFB89273DD7C500E56F05 /* CellphoneService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CFFB88273DD7C500E56F05 /* CellphoneService.swift */; };
+		11CFFB8B273DD7E100E56F05 /* EventService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CFFB8A273DD7E100E56F05 /* EventService.swift */; };
+		11CFFB8D273DD7F800E56F05 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CFFB8C273DD7F800E56F05 /* LocationService.swift */; };
+		11CFFB8F273DD80B00E56F05 /* MasivPushServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CFFB8E273DD80B00E56F05 /* MasivPushServices.swift */; };
+		11CFFB91273DD81B00E56F05 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CFFB90273DD81B00E56F05 /* NotificationService.swift */; };
+		11CFFB93273DD82E00E56F05 /* TokenService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CFFB92273DD82E00E56F05 /* TokenService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11CFFB52273DD0F500E56F05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11CFFB3D273DD0F500E56F05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11CFFB45273DD0F500E56F05;
+			remoteInfo = MasivPushIosSdk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11CFFB46273DD0F500E56F05 /* MasivPushIosSdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MasivPushIosSdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11CFFB49273DD0F500E56F05 /* MasivPushIosSdk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasivPushIosSdk.h; sourceTree = "<group>"; };
+		11CFFB4A273DD0F500E56F05 /* MasivPushIosSdk.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = MasivPushIosSdk.docc; sourceTree = "<group>"; };
+		11CFFB50273DD0F500E56F05 /* MasivPushIosSdkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MasivPushIosSdkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11CFFB55273DD0F500E56F05 /* MasivPushIosSdkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasivPushIosSdkTests.swift; sourceTree = "<group>"; };
+		11CFFB74273DD65300E56F05 /* MasivPlatform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasivPlatform.swift; sourceTree = "<group>"; };
+		11CFFB76273DD66B00E56F05 /* MasivEventType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasivEventType.swift; sourceTree = "<group>"; };
+		11CFFB78273DD69000E56F05 /* MasivCellphone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasivCellphone.swift; sourceTree = "<group>"; };
+		11CFFB7A273DD6A100E56F05 /* MasivEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasivEvent.swift; sourceTree = "<group>"; };
+		11CFFB7C273DD6B700E56F05 /* MasivNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasivNotification.swift; sourceTree = "<group>"; };
+		11CFFB7E273DD6DE00E56F05 /* MasivToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasivToken.swift; sourceTree = "<group>"; };
+		11CFFB80273DD74700E56F05 /* CellphoneClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellphoneClient.swift; sourceTree = "<group>"; };
+		11CFFB82273DD75700E56F05 /* EventClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventClient.swift; sourceTree = "<group>"; };
+		11CFFB84273DD76700E56F05 /* HttpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
+		11CFFB86273DD77700E56F05 /* TokenClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenClient.swift; sourceTree = "<group>"; };
+		11CFFB88273DD7C500E56F05 /* CellphoneService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellphoneService.swift; sourceTree = "<group>"; };
+		11CFFB8A273DD7E100E56F05 /* EventService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventService.swift; sourceTree = "<group>"; };
+		11CFFB8C273DD7F800E56F05 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		11CFFB8E273DD80B00E56F05 /* MasivPushServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasivPushServices.swift; sourceTree = "<group>"; };
+		11CFFB90273DD81B00E56F05 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		11CFFB92273DD82E00E56F05 /* TokenService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11CFFB43273DD0F500E56F05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11CFFB4D273DD0F500E56F05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11CFFB51273DD0F500E56F05 /* MasivPushIosSdk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11CFFB3C273DD0F500E56F05 = {
+			isa = PBXGroup;
+			children = (
+				11CFFB48273DD0F500E56F05 /* MasivPushIosSdk */,
+				11CFFB54273DD0F500E56F05 /* MasivPushIosSdkTests */,
+				11CFFB47273DD0F500E56F05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11CFFB47273DD0F500E56F05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11CFFB46273DD0F500E56F05 /* MasivPushIosSdk.framework */,
+				11CFFB50273DD0F500E56F05 /* MasivPushIosSdkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11CFFB48273DD0F500E56F05 /* MasivPushIosSdk */ = {
+			isa = PBXGroup;
+			children = (
+				11CFFB70273DD5D200E56F05 /* Infrastructure */,
+				11CFFB6F273DD5C600E56F05 /* Business */,
+				11CFFB6E273DD5B500E56F05 /* Domain */,
+				11CFFB49273DD0F500E56F05 /* MasivPushIosSdk.h */,
+				11CFFB4A273DD0F500E56F05 /* MasivPushIosSdk.docc */,
+			);
+			path = MasivPushIosSdk;
+			sourceTree = "<group>";
+		};
+		11CFFB54273DD0F500E56F05 /* MasivPushIosSdkTests */ = {
+			isa = PBXGroup;
+			children = (
+				11CFFB55273DD0F500E56F05 /* MasivPushIosSdkTests.swift */,
+			);
+			path = MasivPushIosSdkTests;
+			sourceTree = "<group>";
+		};
+		11CFFB6E273DD5B500E56F05 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				11CFFB71273DD5FC00E56F05 /* Enums */,
+				11CFFB78273DD69000E56F05 /* MasivCellphone.swift */,
+				11CFFB7A273DD6A100E56F05 /* MasivEvent.swift */,
+				11CFFB7C273DD6B700E56F05 /* MasivNotification.swift */,
+				11CFFB7E273DD6DE00E56F05 /* MasivToken.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		11CFFB6F273DD5C600E56F05 /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				11CFFB72273DD60B00E56F05 /* Services */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		11CFFB70273DD5D200E56F05 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				11CFFB73273DD61E00E56F05 /* Clients */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		11CFFB71273DD5FC00E56F05 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				11CFFB74273DD65300E56F05 /* MasivPlatform.swift */,
+				11CFFB76273DD66B00E56F05 /* MasivEventType.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		11CFFB72273DD60B00E56F05 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				11CFFB88273DD7C500E56F05 /* CellphoneService.swift */,
+				11CFFB8A273DD7E100E56F05 /* EventService.swift */,
+				11CFFB8C273DD7F800E56F05 /* LocationService.swift */,
+				11CFFB8E273DD80B00E56F05 /* MasivPushServices.swift */,
+				11CFFB90273DD81B00E56F05 /* NotificationService.swift */,
+				11CFFB92273DD82E00E56F05 /* TokenService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		11CFFB73273DD61E00E56F05 /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				11CFFB80273DD74700E56F05 /* CellphoneClient.swift */,
+				11CFFB82273DD75700E56F05 /* EventClient.swift */,
+				11CFFB84273DD76700E56F05 /* HttpClient.swift */,
+				11CFFB86273DD77700E56F05 /* TokenClient.swift */,
+			);
+			path = Clients;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		11CFFB41273DD0F500E56F05 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11CFFB57273DD0F500E56F05 /* MasivPushIosSdk.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		11CFFB45273DD0F500E56F05 /* MasivPushIosSdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11CFFB5A273DD0F500E56F05 /* Build configuration list for PBXNativeTarget "MasivPushIosSdk" */;
+			buildPhases = (
+				11CFFB41273DD0F500E56F05 /* Headers */,
+				11CFFB42273DD0F500E56F05 /* Sources */,
+				11CFFB43273DD0F500E56F05 /* Frameworks */,
+				11CFFB44273DD0F500E56F05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MasivPushIosSdk;
+			productName = MasivPushIosSdk;
+			productReference = 11CFFB46273DD0F500E56F05 /* MasivPushIosSdk.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		11CFFB4F273DD0F500E56F05 /* MasivPushIosSdkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11CFFB5D273DD0F500E56F05 /* Build configuration list for PBXNativeTarget "MasivPushIosSdkTests" */;
+			buildPhases = (
+				11CFFB4C273DD0F500E56F05 /* Sources */,
+				11CFFB4D273DD0F500E56F05 /* Frameworks */,
+				11CFFB4E273DD0F500E56F05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11CFFB53273DD0F500E56F05 /* PBXTargetDependency */,
+			);
+			name = MasivPushIosSdkTests;
+			productName = MasivPushIosSdkTests;
+			productReference = 11CFFB50273DD0F500E56F05 /* MasivPushIosSdkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11CFFB3D273DD0F500E56F05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					11CFFB45273DD0F500E56F05 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					11CFFB4F273DD0F500E56F05 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 11CFFB40273DD0F500E56F05 /* Build configuration list for PBXProject "MasivPushIosSdk" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11CFFB3C273DD0F500E56F05;
+			productRefGroup = 11CFFB47273DD0F500E56F05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11CFFB45273DD0F500E56F05 /* MasivPushIosSdk */,
+				11CFFB4F273DD0F500E56F05 /* MasivPushIosSdkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11CFFB44273DD0F500E56F05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11CFFB4E273DD0F500E56F05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11CFFB42273DD0F500E56F05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11CFFB8D273DD7F800E56F05 /* LocationService.swift in Sources */,
+				11CFFB89273DD7C500E56F05 /* CellphoneService.swift in Sources */,
+				11CFFB85273DD76700E56F05 /* HttpClient.swift in Sources */,
+				11CFFB77273DD66B00E56F05 /* MasivEventType.swift in Sources */,
+				11CFFB81273DD74700E56F05 /* CellphoneClient.swift in Sources */,
+				11CFFB7D273DD6B700E56F05 /* MasivNotification.swift in Sources */,
+				11CFFB8F273DD80B00E56F05 /* MasivPushServices.swift in Sources */,
+				11CFFB79273DD69000E56F05 /* MasivCellphone.swift in Sources */,
+				11CFFB4B273DD0F500E56F05 /* MasivPushIosSdk.docc in Sources */,
+				11CFFB83273DD75700E56F05 /* EventClient.swift in Sources */,
+				11CFFB75273DD65300E56F05 /* MasivPlatform.swift in Sources */,
+				11CFFB7B273DD6A100E56F05 /* MasivEvent.swift in Sources */,
+				11CFFB93273DD82E00E56F05 /* TokenService.swift in Sources */,
+				11CFFB91273DD81B00E56F05 /* NotificationService.swift in Sources */,
+				11CFFB7F273DD6DE00E56F05 /* MasivToken.swift in Sources */,
+				11CFFB8B273DD7E100E56F05 /* EventService.swift in Sources */,
+				11CFFB87273DD77700E56F05 /* TokenClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11CFFB4C273DD0F500E56F05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11CFFB56273DD0F500E56F05 /* MasivPushIosSdkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11CFFB53273DD0F500E56F05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11CFFB45273DD0F500E56F05 /* MasivPushIosSdk */;
+			targetProxy = 11CFFB52273DD0F500E56F05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11CFFB58273DD0F500E56F05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		11CFFB59273DD0F500E56F05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		11CFFB5B273DD0F500E56F05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = TYC24NTJAQ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.masivian.MasivPushIosSdk;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11CFFB5C273DD0F500E56F05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = TYC24NTJAQ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.masivian.MasivPushIosSdk;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		11CFFB5E273DD0F500E56F05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UF49YLPGT6;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.masivian.MasivPushIosSdkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11CFFB5F273DD0F500E56F05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UF49YLPGT6;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.masivian.MasivPushIosSdkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11CFFB40273DD0F500E56F05 /* Build configuration list for PBXProject "MasivPushIosSdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11CFFB58273DD0F500E56F05 /* Debug */,
+				11CFFB59273DD0F500E56F05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11CFFB5A273DD0F500E56F05 /* Build configuration list for PBXNativeTarget "MasivPushIosSdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11CFFB5B273DD0F500E56F05 /* Debug */,
+				11CFFB5C273DD0F500E56F05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11CFFB5D273DD0F500E56F05 /* Build configuration list for PBXNativeTarget "MasivPushIosSdkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11CFFB5E273DD0F500E56F05 /* Debug */,
+				11CFFB5F273DD0F500E56F05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11CFFB3D273DD0F500E56F05 /* Project object */;
+}

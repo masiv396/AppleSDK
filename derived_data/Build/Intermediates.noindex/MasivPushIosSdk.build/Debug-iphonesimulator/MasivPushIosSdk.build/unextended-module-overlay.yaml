@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/masiv/Documents/masiv396/MasivPushIosSdk/MasivPushIosSdk/derived_data/Build/Products/Debug-iphonesimulator/MasivPushIosSdk.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/masiv/Documents/masiv396/MasivPushIosSdk/MasivPushIosSdk/derived_data/Build/Intermediates.noindex/MasivPushIosSdk.build/Debug-iphonesimulator/MasivPushIosSdk.build/unextended-module.modulemap",
+    }]
+  }]
+}

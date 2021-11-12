@@ -1,0 +1,74 @@
+{
+  "_buildCommand2" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildOnly"
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "0fd5062de52550b8722c39f6fe5bbc465a734e3420898c39bc99ad7a996abd6c"
+    }
+  ],
+  "containerPath" : "/Users/masiv/Documents/masiv396/MasivPushIosSdk/MasivPushIosSdk/MasivPushIosSdk.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64e",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : true,
+      "platform" : "iphoneos",
+      "sdk" : "iphoneos15.0",
+      "sdkVariant" : "iphoneos",
+      "supportedArchitectures" : [
+        "armv4t",
+        "armv5",
+        "armv6",
+        "armv7",
+        "armv7f",
+        "armv7s",
+        "armv7k",
+        "arm64",
+        "arm64e"
+      ],
+      "targetArchitecture" : "arm64e"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/masiv/Documents/masiv396/MasivPushIosSdk/MasivPushIosSdk/derived_data/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/masiv/Documents/masiv396/MasivPushIosSdk/MasivPushIosSdk/derived_data/Build/Products",
+      "derivedDataPath" : "/Users/masiv/Documents/masiv396/MasivPushIosSdk/MasivPushIosSdk/derived_data",
+      "indexDataStoreFolderPath" : "/Users/masiv/Documents/masiv396/MasivPushIosSdk/MasivPushIosSdk/derived_data/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/masiv/Documents/masiv396/MasivPushIosSdk/MasivPushIosSdk/derived_data/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/masiv/Documents/masiv396/MasivPushIosSdk/MasivPushIosSdk/derived_data/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+          "ARCHS" : "arm64",
+          "BUILD_LIBRARY_FOR_DISTRIBUTION" : "YES",
+          "SDKROOT" : "iphoneos15.0"
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "ACTION" : "build",
+          "COLOR_DIAGNOSTICS" : "YES",
+          "diagnostic_message_length" : "80",
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
