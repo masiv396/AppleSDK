@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>3DB73A2C-77EC-49B8-9034-255C3A169E2B</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>3DB73A2C-77EC-49B8-9034-255C3A169E2B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>MasivPushIosSdk project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MasivPushIosSdk</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project MasivPushIosSdk with scheme MasivPushIosSdk</string>
+			<key>timeStartedRecording</key>
+			<real>658440160.20267403</real>
+			<key>timeStoppedRecording</key>
+			<real>658440161.77657402</real>
+			<key>title</key>
+			<string>Building project MasivPushIosSdk with scheme MasivPushIosSdk</string>
+			<key>uniqueIdentifier</key>
+			<string>3DB73A2C-77EC-49B8-9034-255C3A169E2B</string>
+		</dict>
+		<key>8B3255A2-CEE3-4A8C-9AFA-6DE1B1D73EC2</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>8B3255A2-CEE3-4A8C-9AFA-6DE1B1D73EC2.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>MasivPushIosSdk project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MasivPushIosSdk</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project MasivPushIosSdk with scheme MasivPushIosSdk</string>
+			<key>timeStartedRecording</key>
+			<real>658365595.57058895</real>
+			<key>timeStoppedRecording</key>
+			<real>658365596.47511995</real>
+			<key>title</key>
+			<string>Building project MasivPushIosSdk with scheme MasivPushIosSdk</string>
+			<key>uniqueIdentifier</key>
+			<string>8B3255A2-CEE3-4A8C-9AFA-6DE1B1D73EC2</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

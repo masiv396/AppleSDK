@@ -1,0 +1,21 @@
+version: "Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)"
+options: "b34732b211829eb4c137744dab63d5cd4a550c81b62a858e93bde3863829526c"
+build_start_time: [1636672700, 122176170]
+build_end_time: [1636672720, 550510883]
+inputs:
+  "/Users/masiv/Documents/masiv396/MasivPushIosSdk/MasivPushIosSdk/MasivPushIosSdk/Business/Services/CellphoneService.swift": [1636575152, 857583284]
+  "/Users/masiv/Documents/masiv396/MasivPushIosSdk/MasivPushIosSdk/MasivPushIosSdk/Business/Services/EventService.swift": [1636575152, 857785701]
+  "/Users/masiv/Documents/masiv396/MasivPushIosSdk/MasivPushIosSdk/MasivPushIosSdk/Business/Services/LocationService.swift": [1636575152, 858038902]
+  "/Users/masiv/Documents/masiv396/MasivPushIosSdk/MasivPushIosSdk/MasivPushIosSdk/Business/Services/MasivPushServices.swift": [1636672279, 96108436]
+  "/Users/masiv/Documents/masiv396/MasivPushIosSdk/MasivPushIosSdk/MasivPushIosSdk/Business/Services/NotificationService.swift": [1636575152, 858741760]
+  "/Users/masiv/Documents/masiv396/MasivPushIosSdk/MasivPushIosSdk/MasivPushIosSdk/Business/Services/TokenService.swift": [1636575152, 859044313]
+  "/Users/masiv/Documents/masiv396/MasivPushIosSdk/MasivPushIosSdk/MasivPushIosSdk/Domain/Enums/MasivEventType.swift": [1636575152, 859442234]
+  "/Users/masiv/Documents/masiv396/MasivPushIosSdk/MasivPushIosSdk/MasivPushIosSdk/Domain/Enums/MasivPlatform.swift": [1636575152, 859637022]
+  "/Users/masiv/Documents/masiv396/MasivPushIosSdk/MasivPushIosSdk/MasivPushIosSdk/Domain/MasivCellphone.swift": [1636575152, 859817266]
+  "/Users/masiv/Documents/masiv396/MasivPushIosSdk/MasivPushIosSdk/MasivPushIosSdk/Domain/MasivEvent.swift": [1636575152, 860017299]
+  "/Users/masiv/Documents/masiv396/MasivPushIosSdk/MasivPushIosSdk/MasivPushIosSdk/Domain/MasivNotification.swift": [1636575152, 860218524]
+  "/Users/masiv/Documents/masiv396/MasivPushIosSdk/MasivPushIosSdk/MasivPushIosSdk/Domain/MasivToken.swift": [1636575152, 860400676]
+  "/Users/masiv/Documents/masiv396/MasivPushIosSdk/MasivPushIosSdk/MasivPushIosSdk/Infrastructure/Clients/CellphoneClient.swift": [1636575152, 860922336]
+  "/Users/masiv/Documents/masiv396/MasivPushIosSdk/MasivPushIosSdk/MasivPushIosSdk/Infrastructure/Clients/EventClient.swift": [1636575152, 861164093]
+  "/Users/masiv/Documents/masiv396/MasivPushIosSdk/MasivPushIosSdk/MasivPushIosSdk/Infrastructure/Clients/HttpClient.swift": [1636575152, 861392498]
+  "/Users/masiv/Documents/masiv396/MasivPushIosSdk/MasivPushIosSdk/MasivPushIosSdk/Infrastructure/Clients/TokenClient.swift": [1636575152, 861576080]

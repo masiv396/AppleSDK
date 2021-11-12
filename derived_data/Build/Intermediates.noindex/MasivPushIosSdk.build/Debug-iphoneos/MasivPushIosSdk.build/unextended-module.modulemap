@@ -1,0 +1,10 @@
+framework module MasivPushIosSdk {
+  umbrella header "MasivPushIosSdk.h"
+
+  export *
+  module * { export * }
+}
+
+module MasivPushIosSdk.__Swift {
+    exclude header "MasivPushIosSdk-Swift.h"
+}
